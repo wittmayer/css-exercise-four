@@ -2,3 +2,41 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+div {
+  margin: 1% 0;
+  width: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+
+.preview.baku {
+  background-image: url("images/baku.jpg");
+  background-color: blue;
+  }
+
+.container {
+  display: block;
+  margin: 8px;
+}
+
+@@media screen and (min-width:575px) {
+  div {
+    margin: 1%;
+    width: 48%;
+  }
+  .container {
+    overflow: hidden;
+  }
+}
+
+@@media screen and (min-width:991px) {
+  div {
+    margin: 1%;
+    width: 46%;
+  }
+}
